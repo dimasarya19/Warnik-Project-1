@@ -23,7 +23,7 @@ export const menuData: MenuItem[] = [
     price: 15000,
     category: 'Niki Kopi',
     description: 'Kopi hitam murni dengan cita rasa otentik.',
-    image: 'https://ibb.co.com/7xf9zpTQ=400',
+    image: 'https://images/menu/americano.jpg=400',
     isAvailable: true,
   },
   {
