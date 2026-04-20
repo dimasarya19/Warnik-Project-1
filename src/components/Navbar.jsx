@@ -37,20 +37,16 @@ const Navbar = ({ onOpenCart }) => {
       )}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo */}
+        {/* Logo Baru (menggunakan gambar yang Anda kirimkan) */}
         <a href="#home" className="flex items-center gap-3 group">
-          <div className="relative w-10 h-10 bg-primary rounded-xl flex items-center justify-center shadow-lg transform group-hover:rotate-6 transition-transform">
-            <span className="text-white font-black text-xl italic font-serif">W</span>
-            <div className="absolute -top-1 -right-1 text-orange-200 animate-pulse text-xs">~</div>
-          </div>
-          <div className="flex flex-col">
-            <span className={cn(
-              "font-black leading-tight tracking-tighter text-xl",
-              isScrolled ? "text-ink" : "text-white"
-            )}>
-              WARKOP <span className="text-primary">NIKIKULA</span>
-            </span>
-          </div>
+          <img 
+            src="/logo-warnik.png"
+            alt="WARKOP NIKIKULA"
+            className={cn(
+              "w-auto transition-all duration-300 group-hover:scale-105",
+              isScrolled ? "h-9" : "h-11"
+            )}
+          />
         </a>
 
         {/* Desktop Menu */}
@@ -67,7 +63,7 @@ const Navbar = ({ onOpenCart }) => {
               {link.name}
             </a>
           ))}
-          
+         
           <div className="flex items-center gap-4">
             <button
               onClick={onOpenCart}
@@ -109,7 +105,7 @@ const Navbar = ({ onOpenCart }) => {
               </span>
             )}
           </button>
-          
+         
           <button
             onClick={() => setIsOpen(!isOpen)}
             className={cn(
@@ -142,7 +138,7 @@ const Navbar = ({ onOpenCart }) => {
                   {link.name}
                 </a>
               ))}
-              <a 
+              <a
                 href="https://wa.me/6285261328588"
                 target="_blank"
                 rel="noreferrer"
