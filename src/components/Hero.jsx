@@ -43,7 +43,7 @@ const Hero = () => {
                 <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="https://wa.me/62895386934881"
+                href="https://wa.me/62885261328588"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-center gap-3 bg-primary border border-white/20 text-white px-10 py-4 rounded-full font-black text-sm uppercase tracking-widest hover:bg-primary/80 transition-all transform hover:scale-105 active:scale-95"
