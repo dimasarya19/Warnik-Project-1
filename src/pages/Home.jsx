@@ -142,7 +142,7 @@ const Home = () => {
       <motion.a
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        href="https://wa.me/62895386934881"
+        href="https://wa.me/6285261328588"
         target="_blank"
         rel="noreferrer"
         className="fixed bottom-8 right-8 z-[100] w-16 h-16 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl shadow-green-200 animate-bounce"
