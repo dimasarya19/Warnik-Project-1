@@ -31,7 +31,7 @@ const Hero = () => {
               <span className="text-secondary serif-playful">warna.</span>
             </h1>
             <p className="text-xl text-white/90 mb-10 leading-relaxed font-semibold italic">
-              “Karena hidup penuh dengan warna”
+              “Karena hidup penuh dengan warna — WARNIK ❤️”
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -43,7 +43,7 @@ const Hero = () => {
                 <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="https://wa.me/62885261328588"
+                href="https://wa.me/62895386934881"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-center gap-3 bg-primary border border-white/20 text-white px-10 py-4 rounded-full font-black text-sm uppercase tracking-widest hover:bg-primary/80 transition-all transform hover:scale-105 active:scale-95"

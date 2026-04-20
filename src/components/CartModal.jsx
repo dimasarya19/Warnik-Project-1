@@ -22,11 +22,11 @@ const CartModal = ({ isOpen, onClose }) => {
       return;
     }
 
-    const waNumber = '6285261328588';
+    const waNumber = '62895386934881';
     let message = `*PESANAN WARKOP NIKIKULA*\n`;
     message += `----------------------------\n`;
-    message += `Nama: ${buyerName}\n`;
-    message += `Tanggal: ${new Date().toLocaleDateString('id-ID')}\n\n`;
+    message += `👤 Nama: ${buyerName}\n`;
+    message += `📅 Tanggal: ${new Date().toLocaleDateString('id-ID')}\n\n`;
     message += `*Daftar Pesanan:*\n`;
 
     cart.forEach((item, index) => {
@@ -35,7 +35,7 @@ const CartModal = ({ isOpen, onClose }) => {
 
     message += `\n*Total Seluruhnya: ${formatPrice(cartTotal)}*\n`;
     message += `----------------------------\n`;
-    if (note) message += `Catatan: ${note}\n`;
+    if (note) message += `📝 Catatan: ${note}\n`;
     message += `\n_Mohon konfirmasi pesanan saya, Terima kasih!_`;
 
     const encodedMessage = encodeURIComponent(message);
