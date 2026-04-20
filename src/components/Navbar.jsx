@@ -38,10 +38,13 @@ const Navbar = ({ onOpenCart }) => {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
-        <a href="#home" className="flex items-center gap-3 group">
-          <div className="relative w-10 h-10 bg-primary rounded-xl flex items-center justify-center shadow-lg transform group-hover:rotate-6 transition-transform">
-            <span className="text-white font-black text-xl italic font-serif">W</span>
-            <div className="absolute -top-1 -right-1 text-orange-200 animate-pulse text-xs">~</div>
+          <div className="relative">
+            <motion.div
+              src="C:\Users\user\Downloads\WhatsApp Image 2026-04-07 at 09.25.50.jpeg
+              alt="WARKOP NIKIKULA"
+              className="w-12 h-12 object-contain"
+           >
+      
           </div>
           <div className="flex flex-col">
             <span className={cn(
