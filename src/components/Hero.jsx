@@ -31,7 +31,7 @@ const Hero = () => {
               <span className="text-secondary serif-playful">warna.</span>
             </h1>
             <p className="text-xl text-white/90 mb-10 leading-relaxed font-semibold italic">
-              “Karena hidup penuh dengan warna — WARNIK ❤️”
+              “Karena hidup penuh dengan warna”
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
