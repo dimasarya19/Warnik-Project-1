@@ -22,7 +22,7 @@ const CartModal = ({ isOpen, onClose }) => {
       return;
     }
 
-    const waNumber = '62895386934881';
+    const waNumber = '6285261328588';
     let message = `*PESANAN WARKOP NIKIKULA*\n`;
     message += `----------------------------\n`;
     message += `👤 Nama: ${buyerName}\n`;
