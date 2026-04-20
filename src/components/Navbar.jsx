@@ -143,7 +143,7 @@ const Navbar = ({ onOpenCart }) => {
                 </a>
               ))}
               <a 
-                href="https://wa.me/62895386934881"
+                href="https://wa.me/6285261328588"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-center gap-2 bg-[#25D366] text-white py-3 rounded-xl font-bold mt-2"
