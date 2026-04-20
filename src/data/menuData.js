@@ -14,7 +14,7 @@ export const menuData = [
   { id: 8, name: 'V60', price: 15000, category: 'Niki Kopi', description: 'Teknik manual brew untuk rasa kopi yang lebih bersih.', image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=400' },
 
   // Niki Bukan Kopi
-  { id: 9, name: 'Matcha', price: 18000, category: 'Niki Bukan Kopi', description: 'Bubuk green tea asli dengan susu segar.', image: '"C:\Users\user\Pictures\Screenshots\Cuplikan layar 2026-04-20 153959.png"=400' },
+  { id: 9, name: 'Matcha', price: 18000, category: 'Niki Bukan Kopi', description: 'Bubuk green tea asli dengan susu segar.', image: '"https://drive.google.com/file/d/1cHRfbf5b4G7SjyM9UPMuyvOScl45tbzR/view?usp=sharing=400' },
   { id: 10, name: 'Leci Tea', price: 15000, category: 'Niki Bukan Kopi', description: 'Teh segar dengan buah leci asli.', image: 'https://images.unsplash.com/photo-1541658428464-1e0e8544e311?auto=format&fit=crop&q=80&w=400' },
   { id: 11, name: 'Coklat', price: 15000, category: 'Niki Bukan Kopi', description: 'Minuman cokelat premium yang kaya rasa.', image: 'https://images.unsplash.com/photo-1544787210-2213d2424855?auto=format&fit=crop&q=80&w=400' },
   { id: 12, name: 'Teh Tarik Ulur', price: 13000, category: 'Niki Bukan Kopi', description: 'Teh susu dengan buih yang melimpah.', image: 'https://images.unsplash.com/photo-1594631252845-29fc4586d5d7?auto=format&fit=crop&q=80&w=400' },
